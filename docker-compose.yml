@@ -3,13 +3,13 @@ app:
   volumes:
     - .:/usr/src/app
   links:
-    - cassandra:cassandra
+    - db:db
   environment:
     NODE_ENV: development
     # blank means inject in from my env
   command: bash
 
-cassandra:
+db:
   image: cassandra
   ports:
     - "7000:7000"

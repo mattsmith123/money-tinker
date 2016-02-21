@@ -1,5 +1,4 @@
-var Dakota = require('dakota-cassandra');
-module.exports = {
+var schema = {
 
   columns: {
 
@@ -20,3 +19,7 @@ module.exports = {
   key: ['id']
 };
 
+module.exports = function (Dakota) {
+  console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>> hi")
+  return Dakota.addModel('Transaction', schema)
+}
