@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/mattsmith123/money-tinker#readme",
   "dependencies": {
-    "cassandra-driver": "^3.0.1"
+    "@gustavnikolaj/migrate": "^1.0.0",
+    "cassandra-driver": "^3.0.1",
+    "dakota-cassandra": "0.0.35",
+    "dependable": "^0.2.5"
   }
 }
