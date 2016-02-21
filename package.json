@@ -1,0 +1,22 @@
+{
+  "name": "money-tinker",
+  "version": "1.0.0",
+  "description": "a place to tinker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsmith123/money-tinker.git"
+  },
+  "author": "mattsmith123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattsmith123/money-tinker/issues"
+  },
+  "homepage": "https://github.com/mattsmith123/money-tinker#readme",
+  "dependencies": {
+    "cassandra-driver": "^3.0.1"
+  }
+}

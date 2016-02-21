@@ -1,0 +1,20 @@
+app:
+  image: node
+  volumes:
+    - .:/usr/src/app
+  links:
+    - cassandra:cassandra
+  environment:
+    NODE_ENV: development
+    # blank means inject in from my env
+  command: bash
+
+cassandra:
+  image: cassandra
+  ports:
+    - "7000:7000"
+    - "7001:7001"
+    - "7199:7199"
+    - "9042:9042"
+    - "9160:9160"
+
