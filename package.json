@@ -18,8 +18,11 @@
   "homepage": "https://github.com/mattsmith123/money-tinker#readme",
   "dependencies": {
     "@gustavnikolaj/migrate": "^1.0.0",
-    "cassandra-driver": "^3.0.1",
-    "dakota-cassandra": "0.0.35",
-    "dependable": "^0.2.5"
+    "dependable": "^0.2.5",
+    "install": "^0.4.4",
+    "js-data": "^2.9.0",
+    "js-data-rethinkdb": "^2.1.0",
+    "npm": "^3.7.3",
+    "rethinkdbdash": "^2.2.18"
   }
 }
