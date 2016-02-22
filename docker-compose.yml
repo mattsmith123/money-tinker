@@ -6,6 +6,8 @@ app:
     - rtdb
   environment:
     NODE_ENV: development
+    MINT_USER:
+    MINT_PASSWORD:
   command: bash
 
 rtdb:
